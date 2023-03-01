@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/itzVort3x1/google-cal-meet-api/issues"
   },
-  "homepage": "https://github.com/itzVort3x1/google-cal-meet-api#readme"
+  "homepage": "https://github.com/itzVort3x1/google-cal-meet-api#readme",
+  "dependencies": {
+    "googleapis": "^111.0.0"
+  }
 }
