@@ -1,5 +1,7 @@
 # NodeJs Google-calendar-meet-api
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 An Api to help you create google meet links and create an event on the calendar with this link you created.
 
 # Install
