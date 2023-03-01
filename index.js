@@ -70,7 +70,7 @@ async function meet(options) {
 
 	let events = result.data.items;
 	if (events.length) {
-		throw new Error("Time Slot Is Not Available");
+		throw new Error("You are busy at this time slot");
 	}
 
 	const eventStartTime = new Date();
