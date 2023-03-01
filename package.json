@@ -1,6 +1,6 @@
 {
   "name": "google-cal-meet-api",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "This package will allow you to create a google meet link and use that link to create a event in the google calendar",
   "main": "index.js",
   "scripts": {
