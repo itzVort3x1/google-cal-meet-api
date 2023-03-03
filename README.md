@@ -6,46 +6,21 @@ An Api to help you create google meet links and create an event on the calendar 
 
 # Install
 
-Npm
-
-``` 
-npm install google-cal-meet-api
-```
+![install](install.png)
 
 # Javascript Usage
 1) You will have to get the google api credentials ```CLIENT_ID``` and ```CLIENT_SECRET```
 2) You will also need to enable the google calendar api in the api services on google cloud platform.
 3) Generate a refresh token using google authentication strategies.
 
-### Add this to the top of your file.
-```
-const Meeting = require('google-meet-api').meet
-```
+## Add this to the top of your file.
 
-### Easy Usage
+![import](import.png)
 
-```
-     Meeting({
-          clientId: process.env.GOOGLE_CLIENT_ID,
-          clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-          refreshToken: refreshToken,
-          date: "2023-03-01",
-          startTime: "13:30",
-          endTime: "14:45",
-          summary: "summary",
-          location: "location",
-          description: "description",
-          attendees: [{ email: "xyz@gmail.com" }],
-          alert: 10,
-     }).then(function(result){
-          // Here you can access the google meet link
-          console.log(result);
-     }).catch(err) {
-          // If there is any conflicting event at that particular time then 
-          the error would be thrown
-          console.log(err)
-     }
-```
+# Easy Usage
+
+
+![usaage](usage.png)
 
 ## Available Attributes
 <table>
